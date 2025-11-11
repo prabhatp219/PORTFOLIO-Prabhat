@@ -40,10 +40,10 @@ function Techstack() {
         <img src={Typescript} alt="typescript" />
         <div className="tech-icons-text">Javascript</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={Go} alt="go" />
         <div className="tech-icons-text">Go</div>
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <img src={Node} alt="node" />
         <div className="tech-icons-text">Node.Js</div>
@@ -60,10 +60,10 @@ function Techstack() {
         <img src={Mongo} alt="mongoDb" />
         <div className="tech-icons-text">Mongo DB</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={Redux} alt="redux" />
         <div className="tech-icons-text">Redux</div>
-      </Col>
+      </Col> */}
 
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs fontSize={"24px"} />
@@ -77,10 +77,10 @@ function Techstack() {
         <img src={Firebase} alt="firebase" />
         <div className="tech-icons-text">Firebase</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={Redis} alt="redis" />
         <div className="tech-icons-text">Redis</div>
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <img src={Docker} alt="docker" />
         <div className="tech-icons-text">Docker</div>
@@ -103,10 +103,10 @@ function Techstack() {
         <img src={Java} alt="haskell" />
         <div className="tech-icons-text">Java</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={HaskellIcon} alt="haskell" />
         <div className="tech-icons-text">Haskell</div>
-      </Col>
+      </Col> */}
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={Tailwind} alt="tailwind" />
@@ -133,10 +133,10 @@ function Techstack() {
         <div className="tech-icons-text">AWS</div>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={Kafka} alt="Kafka" className="tech-icon-images" />
         <div className="tech-icons-text">Kafka</div>
-      </Col>
+      </Col> */}
     </Row>
   );
 }
