@@ -23,7 +23,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, MongoDB, Node.js, and Java{" "}
+                  JavaScript, C++, MongoDB, Node.js, and Express{" "}
                 </b>
               </i>
               — and I enjoy working across both backend and frontend stacks.

@@ -34,6 +34,18 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Edu_Hub"
+              description="EduHub is a student–teacher interaction platform designed to simplify academic communication and make learning more organized, accessible, and efficient. It acts as a digital classroom companion, combining assignment management, resource sharing, and seamless interaction—all in one platform.
+"
+              ghLink="https://github.com/prabhatp219/Student-Teacher-Interaction-Portal"
+              // demoLink="https://editor.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
               title="Weather-App"
@@ -43,17 +55,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Form-Sathi"
-              description="Form Sathi is a website that helps users understand and fill out government forms easily. It provides step-by-step guidance, examples, and tips for each section, making complex forms simple and error-free for everyone.
-"
-              ghLink="https://github.com/prabhatp219/Form-Sathi"
-              // demoLink="https://editor.soumya-jit.tech/"
-            />
-          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
